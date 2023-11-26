@@ -1,7 +1,7 @@
 version: '3.1'
 services:
   database:
-    container_name: project-cv
+    container_name: project-cv-container
     image: postgres
     restart: always
     env_file:
